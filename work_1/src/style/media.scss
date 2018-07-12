@@ -1,0 +1,58 @@
+@media only srceen and (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+   .border--horizontal--1px {
+       &::after {
+          transform: scaleY(0.66);
+          -webkit-transform: scaleY(0.66);
+       }
+   }
+   .border--vertical--1px {
+        &::after {
+        transform: scaleX(0.66);
+        -webkit-transform: scaleX(0.66);
+        }
+    }
+}
+
+@media only srceen and (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+    .border--horizontal--1px {
+        &::after {
+            transform: scaleY(0.5);
+            -webkit-transform: scaleY(0.5);
+        }
+    }
+    .border--vertical--1px {
+        &::after {
+            transform: scaleX(0.5);
+            -webkit-transform: scaleX(0.5);
+        }
+    }
+}
+
+ @media only srceen and (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+    .border--horizontal--1px {
+        &::after {
+           transform: scaleY(0.33);
+           -webkit-transform: scaleY(0.33);
+        }
+    }
+    .border--vertical--1px {
+         &::after {
+         transform: scaleX(0.33);
+         -webkit-transform: scaleX(0.33);
+         }
+     }
+ }
+
+@media only screen and (max-width: 360px) {
+    .toIcon {
+        width: 0.6rem;
+        margin: 0 0.15rem;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .toIcon {
+        width: 0.8rem;
+        margin: 0 0.3rem;
+    }
+}

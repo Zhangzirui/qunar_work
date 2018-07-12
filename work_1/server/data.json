@@ -1,0 +1,238 @@
+{
+    "02-05": [
+        {
+            "id": 1,
+            "from": {
+                "time": "06:35",
+                "airport": "首都T3"
+            },
+            "to": {
+                "time": "08:50",
+                "airport": "虹桥T2"
+            },
+            "airline": "吉祥航HO1252 空客321(中)",
+            "isShare": false,
+            "planCost": {
+                "money": 484,
+                "discount": "经济舱3.9折",
+                "riseInPrice": true
+            }
+        },
+        {
+            "id": 2,
+            "from": {
+                "time": "07:00",
+                "airport": "首都T2"
+            },
+            "to": {
+                "time": "09:15",
+                "airport": "虹桥T2"
+            },
+            "airline": "东航MU5138 空客A330(宽)",
+            "isShare": false,
+            "planCost": {
+                "money": 920,
+                "discount": "经济舱7.4折",
+                "riseInPrice": true
+            }
+        },
+        {
+            "id": 3,
+            "from": {
+                "time": "07:10",
+                "airport": "首都T1"
+            },
+            "to": {
+                "time": "09:20",
+                "airport": "浦东T2"
+            },
+            "airline": "海航HU7611 波音787(大)",
+            "isShare": false,
+            "planCost": {
+                "money": 590,
+                "discount": "经济舱4.8折",
+                "riseInPrice": true
+            }
+        },
+        {
+            "id": 4,
+            "from": {
+                "time": "07:25",
+                "airport": "首都T1"
+            },
+            "to": {
+                "time": "09:30",
+                "airport": "虹桥T2"
+            },
+            "airline": "海航HU7607 空客330-300(宽)",
+            "isShare": false,
+            "planCost": {
+                "money": 560,
+                "discount": "经济舱4.5折",
+                "riseInPrice": false
+            }
+        },
+        {
+            "id": 5,
+            "from": {
+                "time": "07:30",
+                "airport": "首都T3"
+            },
+            "to": {
+                "time": "09:35",
+                "airport": "虹桥T2"
+            },
+            "airline": "深航ZH1831 波音777(大)",
+            "isShare": true,
+            "planCost": {
+                "money": 1070,
+                "discount": "经济舱8.6折",
+                "riseInPrice": true
+            }
+        },
+        {
+            "id": 6,
+            "from": {
+                "time": "07:35",
+                "airport": "首都T2"
+            },
+            "to": {
+                "time": "10:00",
+                "airport": "浦东T1"
+            },
+            "airline": "东航MU5183 空客321(中)",
+            "isShare": false,
+            "planCost": {
+                "money": 790,
+                "discount": "经济舱6.4折",
+                "riseInPrice": false
+            }
+        },
+        {
+            "id": 7,
+            "from": {
+                "time": "07:35",
+                "airport": "首都T2"
+            },
+            "to": {
+                "time": "10:00",
+                "airport": "浦东T1"
+            },
+            "airline": "东航MU5183 空客321(中)",
+            "isShare": false,
+            "planCost": {
+                "money": 790,
+                "discount": "经济舱6.4折",
+                "riseInPrice": false
+            }
+        },
+        {
+            "id": 8,
+            "from": {
+                "time": "07:30",
+                "airport": "首都T3"
+            },
+            "to": {
+                "time": "09:35",
+                "airport": "虹桥T2"
+            },
+            "airline": "深航ZH1831 波音777(大)",
+            "isShare": true,
+            "planCost": {
+                "money": 1070,
+                "discount": "经济舱8.6折",
+                "riseInPrice": true
+            }
+        },
+        {
+            "id": 9,
+            "from": {
+                "time": "07:35",
+                "airport": "首都T2"
+            },
+            "to": {
+                "time": "10:00",
+                "airport": "浦东T1"
+            },
+            "airline": "东航MU5183 空客321(中)",
+            "isShare": false,
+            "planCost": {
+                "money": 790,
+                "discount": "经济舱6.4折",
+                "riseInPrice": false
+            }
+        },
+        {
+            "id": 10,
+            "from": {
+                "time": "07:30",
+                "airport": "首都T3"
+            },
+            "to": {
+                "time": "09:35",
+                "airport": "虹桥T2"
+            },
+            "airline": "深航ZH1831 波音777(大)",
+            "isShare": true,
+            "planCost": {
+                "money": 1070,
+                "discount": "经济舱8.6折",
+                "riseInPrice": true
+            }
+        },
+        {
+            "id": 11,
+            "from": {
+                "time": "07:35",
+                "airport": "首都T2"
+            },
+            "to": {
+                "time": "10:00",
+                "airport": "浦东T1"
+            },
+            "airline": "东航MU5183 空客321(中)",
+            "isShare": false,
+            "planCost": {
+                "money": 790,
+                "discount": "经济舱6.4折",
+                "riseInPrice": false
+            }
+        },
+        {
+            "id": 12,
+            "from": {
+                "time": "07:30",
+                "airport": "首都T3"
+            },
+            "to": {
+                "time": "09:35",
+                "airport": "虹桥T2"
+            },
+            "airline": "深航ZH1831 波音777(大)",
+            "isShare": true,
+            "planCost": {
+                "money": 1070,
+                "discount": "经济舱8.6折",
+                "riseInPrice": true
+            }
+        },
+        {
+            "id": 13,
+            "from": {
+                "time": "07:35",
+                "airport": "首都T2"
+            },
+            "to": {
+                "time": "10:00",
+                "airport": "浦东T1"
+            },
+            "airline": "东航MU5183 空客321(中)",
+            "isShare": false,
+            "planCost": {
+                "money": 790,
+                "discount": "经济舱6.4折",
+                "riseInPrice": false
+            }
+        }
+    ]
+}

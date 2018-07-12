@@ -1,0 +1,30 @@
+@mixin border--1px ($direction, $color, $lineStyle: solid) {
+    position: relative;
+    &::after {
+        content: ' ';
+        position: absolute;
+        @if $direction == left {
+            top: 0;
+            left: 0;
+            height: 100%;
+            border-left: 1px $lineStyle $color;
+         } @else if $direction == right {
+            top: 0;
+            right: 0;
+            height: 100%;
+            border-left: 1px $lineStyle $color;
+         } @else if $direction == top {
+            top: 0;
+            left: 0;
+            width: 100%;
+            border-top: 1px $lineStyle $color
+         } @else if $direction == bottom {
+             bottom: 0;
+             left: 0;
+             width: 100%;
+             border-top: 1px $lineStyle $color
+         }
+        
+        
+    }
+}

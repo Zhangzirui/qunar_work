@@ -1,0 +1,27 @@
+#header {
+    p {
+        padding: 0.8rem 0 0.5rem;
+        font-size: 0;
+        .addInput,
+        .addButton {
+            font-size: 0.14rem;
+            line-height: 0.32rem;
+            border-radius: 6px;
+        }
+        .addInput {
+            width: 50%;
+            padding: 0 0.08rem;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            &::-webkit-input-placeholder {
+                color: rgba(0, 0, 0, 0.3);
+            }
+        }
+        .addButton {
+            margin: 0 0 0 0.65rem;
+            padding: 0 0.18rem;
+            border: 1px solid rgb(0, 131, 225);
+            color: #ffffff;
+            background-color: rgb(63, 142, 227)
+        }
+    } 
+}

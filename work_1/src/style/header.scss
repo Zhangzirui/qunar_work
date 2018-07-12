@@ -1,0 +1,29 @@
+header {
+    position: fixed;
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.18rem;
+    line-height: 0.4rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 185, 200);
+    z-index: 100;
+    .backIcon,
+    .searchIcon {
+        position: absolute;
+        padding: 0 0.14rem;
+    }
+    .tripTitle {
+        margin: 0;
+        padding: 0;
+        font-size: 0.18rem;
+        text-align: center;
+    }
+    .backIcon {
+        left: 0;
+        top: 0;
+    }
+    .searchIcon {
+        right: 0;
+        top: 0;
+    }
+}

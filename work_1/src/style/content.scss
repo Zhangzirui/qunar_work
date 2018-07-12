@@ -1,0 +1,81 @@
+@import 'mixin';
+
+#content {
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    font-size: 0.12rem;
+    li {
+        height: 0.82rem;
+        padding: 0 0.15rem;
+        box-sizing: border-box;
+    }
+    li + li {
+        @include border--1px(
+           $direction: top,
+           $color: rgba(0, 0, 0, 0.1)
+        )
+    }
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    .planContent {
+        float: left;
+        color: rgba(0, 0, 0, 0.3);
+        .timeTable {
+            height: 0.46rem;
+            .from,
+            .toIcon,
+            .to {
+                display: inline-block;
+                vertical-align: top;
+            }
+            .from,
+            .to {
+                width: 0.48rem;
+                .time {
+                    font-size: 0.16rem;
+                    line-height: 0.34rem;
+                    color: #000000;
+                }
+            }
+            .toIcon {
+                height: 0.23rem;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+                &::after {
+                    content: ' ';
+                    float: right;
+                    margin-top: 20px;
+                    width: 0.08rem;
+                    transform: rotate(30deg);
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
+        .airline {
+            height: 0.36rem;
+            line-height: 0.36rem;
+            .share {
+                color: rgb(88, 185, 200);
+            }
+        }
+    }
+    .planCost {
+        float:right;
+        text-align: right;
+        .money {
+            font-size: 0.16rem;
+            line-height: 0.34rem;
+            color: rgb(227, 155, 59);
+        }
+        .description {
+            margin: 0.06rem 0;
+            span {
+                border-radius: 2px;
+                color: #ffffff;
+                background-color: rgb(227, 155, 59);
+            }
+        }
+    }
+}

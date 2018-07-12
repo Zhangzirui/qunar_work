@@ -1,0 +1,42 @@
+#page {
+    padding-top: 0.34rem;
+    text-align: right;
+    font-size: 0;
+    & > * {
+        display: inline-block;
+        vertical-align: top;
+        height: 0.32rem;
+        width: 0.32rem;
+        line-height: 0.32rem;
+        font-size: 0.12rem;
+        border-radius: 6px;
+        text-align: center;
+        &.iconfont {
+            text-decoration: none;
+            cursor: not-allowed;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            color: rgba(0, 0, 0, 0.3);
+            &:last-child {
+                margin-left: 0.09rem;
+            }
+            // &:hover {
+            //     border: 1px solid rgb(0, 131, 225);
+            //     color: #ffffff;
+            //     background-color: rgb(63, 142, 227);
+            // }
+        }
+        &.active:hover {
+            cursor: pointer;
+            border: 1px solid rgb(0, 131, 225);
+            color: #ffffff;
+            background-color: rgb(63, 142, 227);
+        }
+        &.pageNum {
+            margin-left: 0.09rem;
+            border: 1px solid rgb(0, 131, 225);
+            color: #ffffff;
+            background-color: rgb(63, 142, 227);
+        }
+    }
+    
+}

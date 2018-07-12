@@ -1,0 +1,43 @@
+#taskAdd {
+    margin: 0 0.35rem;
+    padding-top: 0.35rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    p {
+        font-size: 0;
+    }
+    p:nth-child(1) {
+        display: flex;
+        label,
+        #addInput {
+            display: inline-block;
+            vertical-align: top;
+            height: 0.58rem;
+            line-height: 0.58rem;
+            font-size: 0.21rem;
+            box-sizing: border-box;
+        }
+        label {
+            padding: 0 0.5rem;
+            flex: 0;
+            font-weight: bolder;
+        }
+        #addInput{
+            flex: 1;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            padding: 0 0.22rem;
+        }
+    }
+    p:nth-child(2) {
+        margin-top: 0.25rem;
+        text-align: right;
+        .addButton {
+            padding: 0.19rem 0.22rem;
+            font-size: 0.21rem;
+            border-radius: 5px;
+            border: 1px solid rgb(22, 101, 160);
+            color: #ffffff;
+            background-color: rgb(67, 121, 179);
+        }
+    }
+}
